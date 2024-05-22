@@ -1,0 +1,25 @@
+{
+    "name": "img",
+    "sources": {
+        "dir": "src",
+        "subdirs": true
+    },
+    "package-specs": {
+        "module": "es6",
+        "in-source": true
+    },
+    "suffix": ".res.js",
+    "bsc-flags": [
+        "-open RescriptCore"
+    ],
+    "jsx": {
+        "version": 4
+    },
+    "bs-dependencies": [
+        "rescript-nodejs",
+        "@alexmouton/rescript-hono",
+        "@rescript/core",
+        "@rescript/react",
+        "rescript-webapi"
+    ]
+}
